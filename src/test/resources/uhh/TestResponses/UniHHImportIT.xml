@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<responsesType xmlns:ns2="http://www.his.de/ws/CourseOfStudyService"  xmlns:ps="http://www.his.de/ws/PersonService" xmlns:rars="http://www.his.de/ws/RightsAndRolesService" xmlns:stu="http://www.his.de/ws/StudentService" xmlns:stu2="http://www.his.de/ws/StudentService201812" xmlns:addrs="http://www.his.de/ws/AddressService" xmlns:pas="http://www.his.de/ws/PersonAddressService" xmlns:acs="http://www.his.de/ws/AccountService">
+    <responses>
+        <entry>
+            <key>de.his.ws.courseofstudyservice.CourseOfStudyServicePortType findCourseOfStudy("", "", "101447", "", "", "")</key>
+            <value xsi:type="ns2:searchedCosType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2691</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102706</ns2:courseofstudyLid>
+	               <ns2:uniquename>LB|GBH|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>Lehramt BS Bau- u. Holztechnik (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2703</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102718</ns2:courseofstudyLid>
+	               <ns2:uniquename>LM|GBH|-|-|H|92|1|P|V|7|</ns2:uniquename>
+	               <ns2:defaulttext>LehrMSc PS Bau- u. Holztechnik 7 (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2710</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102725</ns2:courseofstudyLid>
+	               <ns2:uniquename>LP|GBH|-|-|H|92|1|P|V|7|</ns2:uniquename>
+	               <ns2:defaulttext>LehrMSc Bs Bau- u. Holztechnik 7 (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice.StudentServicePortType updateStudent(UpdateStudent{StudentExisting{Person70{StayAbroadsType{null}, null}, null, DegreePrograms70Type{null}, null, 2017-10-01, null, null, null, 317, null, 1.0, 1.0, null, 1, 1.0, null, 1111111, null, null, null, null, null, 1, null, StudentFunctionlocksType{null}}})</key>
+        </entry>
+        <entry>
+            <key>de.his.ws.courseofstudyservice.CourseOfStudyServicePortType findCourseOfStudy("", "", "101445", "", "", "")</key>
+            <value xsi:type="ns2:searchedCosType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2711</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102726</ns2:courseofstudyLid>
+	               <ns2:uniquename>LA|GAT|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>LehramtBAP Arbeitslehre/Technik (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2690</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102705</ns2:courseofstudyLid>
+	               <ns2:uniquename>LB|GAT|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>Lehramt BS Arbeitslehre/Technik (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2687</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102702</ns2:courseofstudyLid>
+	               <ns2:uniquename>LC|GAT|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>LehramtBAS Arbeitslehre/Technik (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2715</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102730</ns2:courseofstudyLid>
+	               <ns2:uniquename>LM|GAT|-|-|H|92|1|P|V|7|</ns2:uniquename>
+	               <ns2:defaulttext>LehrMSc PS Arbeitslehre/Technik 7 (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2716</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102731</ns2:courseofstudyLid>
+	               <ns2:uniquename>LN|GAT|-|-|H|92|1|P|V|7|</ns2:uniquename>
+	               <ns2:defaulttext>LehrMSc Gy Arbeitslehre/Technik 7 (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2717</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102732</ns2:courseofstudyLid>
+	               <ns2:uniquename>LP|GAT|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>LehrMSc Bs Arbeitslehre/Technik (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2718</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102733</ns2:courseofstudyLid>
+	               <ns2:uniquename>LQ|GAT|-|-|H|92|1|P|V|7|</ns2:uniquename>
+	               <ns2:defaulttext>LehrMSc So Arbeitslehre/Technik 7 (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.courseofstudyservice.CourseOfStudyServicePortType findCourseOfStudy("", "", "101448", "", "", "")</key>
+            <value xsi:type="ns2:searchedCosType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2695</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102710</ns2:courseofstudyLid>
+	               <ns2:uniquename>LB|GE|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>Lehramt BS Elektrotechnik, GewL (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2697</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102712</ns2:courseofstudyLid>
+	               <ns2:uniquename>LD|GE|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>LehramtBSB Elektrotechnik, GewL (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+	            <ns2:searchedCos>
+	               <ns2:courseofstudyId>2682</ns2:courseofstudyId>
+	               <ns2:courseofstudyLid>102697</ns2:courseofstudyLid>
+	               <ns2:uniquename>LO|GE|-|-|H|92|1|P|V|1|</ns2:uniquename>
+	               <ns2:defaulttext>Lehramt OB Elektrotechnik, GewL (DPO92)</ns2:defaulttext>
+	            </ns2:searchedCos>
+            </value>
+        </entry>
+        
+        <entry>
+            <key>de.his.ws.personservice.PersonServicePortType findPerson60("=Anaconda", "=Anja", "", "", "", "", "=1990-01-01", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</key>
+            <value xsi:type="ps:personIdsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice.StudentServicePortType createCandidateStudent("Anaconda", "Anja", 2, "LP|GBH|-|-|H|92|1|P|V|7|", true)</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">111</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice.StudentServicePortType findStudent61("", "=111", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</key>
+            <value xsi:type="stu:studentInfosType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <stu:studentInfo>
+	               <stu:studentId>111</stu:studentId>
+	               <stu:persionId>1111</stu:persionId>
+	               <stu:registrationnumber>11111111</stu:registrationnumber>
+	            </stu:studentInfo>
+            </value>
+        </entry>
+        <entry>
+        	<key>de.his.ws.personservice.PersonServicePortType readPerson(1111)</key>
+        	<value xsi:type="ps:PersonExisting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <ps:id>1111</ps:id>
+	            <ps:firstname>Anja</ps:firstname>
+	            <ps:surname>Anaconda</ps:surname>
+	            <ps:allfirstnames xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:dateofbirth>1990-01-01</ps:dateofbirth>
+	            <ps:genderId>2</ps:genderId>
+	            <ps:birthname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:academicdegreeId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:titleId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:birthcity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:countryId>48</ps:countryId>
+	            <ps:createdAt>2016-07-28</ps:createdAt>
+	            <ps:updatedAt>2017-05-23</ps:updatedAt>
+	            <ps:selfregistrationStatusId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:personinfo>
+	               <ps:id>22</ps:id>
+	               <ps:createdAt>2016-07-28</ps:createdAt>
+	               <ps:familyStatusId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:hasDoneService xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:healthInsuranceId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:healthInsuranceNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:healthInsuranceText xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:insurantStatusId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:nationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:religionId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:updatedAt>2017-02-13</ps:updatedAt>
+	               <ps:visumnumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            </ps:personinfo>
+        	</value>
+        </entry>
+        <entry>
+            <key>1 de.his.ws.studentservice201812.StudentService201812PortType readStudentByPersonId(1111, true, false, true, true)</key>
+            <value xsi:type="stu2:Student" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <stu2:studentId>111</stu2:studentId>
+                <stu2:registrationnumber>1111111</stu2:registrationnumber>
+                <stu2:personId>1111</stu2:personId>
+                <stu2:completeName>Anja Anaconda</stu2:completeName>
+                <stu2:firstname>Anja</stu2:firstname>
+                <stu2:surname>Anaconda</stu2:surname>
+                <stu2:allfirstnames>Anja</stu2:allfirstnames>
+                <stu2:dateofbirth>1990-01-01</stu2:dateofbirth>
+                <stu2:gender>2</stu2:gender>
+                <stu2:birthname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:birthcity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:country>48</stu2:country>
+                <stu2:countryLid>48</stu2:countryLid>
+                <stu2:nationality>48</stu2:nationality>
+                <stu2:nationalityLid>48</stu2:nationalityLid>
+                <stu2:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:secondNationalityLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:selfregistrationStatus xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:connectedToSubject xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:eduType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:enrollmentdate>2019-01-07+01:00</stu2:enrollmentdate>
+                <stu2:exchangeprogramId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:hasLoanRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:homeCountry>48</stu2:homeCountry>
+                <stu2:homeCountryLid>48</stu2:homeCountryLid>
+                <stu2:homeDistrict>12</stu2:homeDistrict>
+                <stu2:homeDistrictLid>12</stu2:homeDistrictLid>
+                <stu2:kollegsemester>1.0</stu2:kollegsemester>
+                <stu2:leavesemester>1.0</stu2:leavesemester>
+                <stu2:orgunitLid>1</stu2:orgunitLid>
+                <stu2:practicalsemester>1.0</stu2:practicalsemester>
+                <stu2:semesterCountry xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterCountryLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrict xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrictLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:universitysemester>1.0</stu2:universitysemester>
+                <stu2:libraryCardNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:studystatus>3</stu2:studystatus>
+                <stu2:termType>30</stu2:termType>
+                <stu2:year>2019</stu2:year>
+                <stu2:createdAt>2019-03-28T00:52:41.069+01:00</stu2:createdAt>
+                <stu2:updatedAt>2019-08-02T01:44:50.069+01:00</stu2:updatedAt>
+                <stu2:requestForDisenrollment></stu2:requestForDisenrollment>
+                <stu2:degreePrograms/>
+                <stu2:accounts/>
+                <stu2:postAddresses/>
+                <stu2:emails/>
+                <stu2:personattributes/>
+            </value>
+        </entry>
+        <entry>
+            <key>2 de.his.ws.studentservice201812.StudentService201812PortType readStudentByPersonId(1111, true, false, true, true)</key>
+            <value xsi:type="stu2:Student" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <stu2:studentId>111</stu2:studentId>
+                <stu2:registrationnumber>1111111</stu2:registrationnumber>
+                <stu2:personId>1111</stu2:personId>
+                <stu2:completeName>Anja Anaconda</stu2:completeName>
+                <stu2:firstname>Anja</stu2:firstname>
+                <stu2:surname>Anaconda</stu2:surname>
+                <stu2:allfirstnames>Anja</stu2:allfirstnames>
+                <stu2:dateofbirth>1990-01-01</stu2:dateofbirth>
+                <stu2:gender>2</stu2:gender>
+                <stu2:birthname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:birthcity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:country>48</stu2:country>
+                <stu2:countryLid>48</stu2:countryLid>
+                <stu2:nationality>48</stu2:nationality>
+                <stu2:nationalityLid>48</stu2:nationalityLid>
+                <stu2:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:secondNationalityLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:selfregistrationStatus xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:connectedToSubject xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:eduType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:enrollmentdate>2019-01-07+01:00</stu2:enrollmentdate>
+                <stu2:exchangeprogramId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:hasLoanRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:homeCountry>48</stu2:homeCountry>
+                <stu2:homeCountryLid>48</stu2:homeCountryLid>
+                <stu2:homeDistrict>12</stu2:homeDistrict>
+                <stu2:homeDistrictLid>12</stu2:homeDistrictLid>
+                <stu2:kollegsemester>1.0</stu2:kollegsemester>
+                <stu2:leavesemester>1.0</stu2:leavesemester>
+                <stu2:orgunitLid>1</stu2:orgunitLid>
+                <stu2:practicalsemester>1.0</stu2:practicalsemester>
+                <stu2:semesterCountry xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterCountryLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrict xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrictLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:universitysemester>1.0</stu2:universitysemester>
+                <stu2:libraryCardNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:studystatus>3</stu2:studystatus>
+                <stu2:termType>30</stu2:termType>
+                <stu2:year>2019</stu2:year>
+                <stu2:createdAt>2019-03-28T00:52:41.069+01:00</stu2:createdAt>
+                <stu2:updatedAt>2019-08-02T01:44:50.069+01:00</stu2:updatedAt>
+                <stu2:requestForDisenrollment></stu2:requestForDisenrollment>
+	            <stu2:degreePrograms>
+	               <stu2:degreeProgram>
+	                  <stu2:extensiondate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu2:extensionsemester xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu2:genderId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu2:progress>
+	                     <stu2:degreeProgramProgress>
+	                        <stu2:courseOfStudyId>2710</stu2:courseOfStudyId>
+	                        <stu2:degreeProgramId>111</stu2:degreeProgramId>
+	                        <stu2:studentstatusId>1</stu2:studentstatusId>
+	                        <stu2:studyStatusId>3</stu2:studyStatusId>
+	                        <stu2:studynumber>1</stu2:studynumber>
+	                        <stu2:studysemester>1.000000</stu2:studysemester>
+	                        <stu2:subjectnumber>1</stu2:subjectnumber>
+	                        <stu2:periodId>99</stu2:periodId>
+	                        <stu2:finished xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu2:reasonOfFinishingId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu2:clinicalSemester>0.000000</stu2:clinicalSemester>
+	                     </stu2:degreeProgramProgress>
+	                  </stu2:progress>
+	                  <stu2:studentId>21118</stu2:studentId>
+	               </stu2:degreeProgram>
+	            </stu2:degreePrograms>
+                <stu2:accounts/>
+                <stu2:postAddresses/>
+                <stu2:emails/>
+                <stu2:personattributes/>
+            </value>
+        </entry>
+        <entry>
+            <key>3 de.his.ws.studentservice201812.StudentService201812PortType readStudentByPersonId(1111, true, false, true, true)</key>
+            <value xsi:type="stu2:Student" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <stu2:studentId>111</stu2:studentId>
+                <stu2:registrationnumber>1111111</stu2:registrationnumber>
+                <stu2:personId>1111</stu2:personId>
+                <stu2:completeName>Anja Anaconda</stu2:completeName>
+                <stu2:firstname>Anja</stu2:firstname>
+                <stu2:surname>Anaconda</stu2:surname>
+                <stu2:allfirstnames>Anja</stu2:allfirstnames>
+                <stu2:dateofbirth>1990-01-01</stu2:dateofbirth>
+                <stu2:gender>2</stu2:gender>
+                <stu2:birthname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:birthcity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:country>48</stu2:country>
+                <stu2:countryLid>48</stu2:countryLid>
+                <stu2:nationality>48</stu2:nationality>
+                <stu2:nationalityLid>48</stu2:nationalityLid>
+                <stu2:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:secondNationalityLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:selfregistrationStatus xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:connectedToSubject xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:eduType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:enrollmentdate>2019-01-07+01:00</stu2:enrollmentdate>
+                <stu2:exchangeprogramId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:hasLoanRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:homeCountry>48</stu2:homeCountry>
+                <stu2:homeCountryLid>48</stu2:homeCountryLid>
+                <stu2:homeDistrict>12</stu2:homeDistrict>
+                <stu2:homeDistrictLid>12</stu2:homeDistrictLid>
+                <stu2:kollegsemester>1.0</stu2:kollegsemester>
+                <stu2:leavesemester>1.0</stu2:leavesemester>
+                <stu2:orgunitLid>1</stu2:orgunitLid>
+                <stu2:practicalsemester>1.0</stu2:practicalsemester>
+                <stu2:semesterCountry xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterCountryLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrict xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrictLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:universitysemester>1.0</stu2:universitysemester>
+                <stu2:libraryCardNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:studystatus>3</stu2:studystatus>
+                <stu2:termType>30</stu2:termType>
+                <stu2:year>2019</stu2:year>
+                <stu2:createdAt>2019-03-28T00:52:41.069+01:00</stu2:createdAt>
+                <stu2:updatedAt>2019-08-02T01:44:50.069+01:00</stu2:updatedAt>
+                <stu2:requestForDisenrollment></stu2:requestForDisenrollment>
+	            <stu2:degreePrograms>
+	               <stu2:degreeProgram>
+	                  <stu2:extensiondate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu2:extensionsemester xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu2:genderId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu2:progress>
+	                     <stu2:degreeProgramProgress>
+	                        <stu2:courseOfStudyId>2710</stu2:courseOfStudyId>
+	                        <stu2:degreeProgramId>111</stu2:degreeProgramId>
+	                        <stu2:studentstatusId>1</stu2:studentstatusId>
+	                        <stu2:studyStatusId>3</stu2:studyStatusId>
+	                        <stu2:studynumber>1</stu2:studynumber>
+	                        <stu2:studysemester>1.000000</stu2:studysemester>
+	                        <stu2:subjectnumber>1</stu2:subjectnumber>
+	                        <stu2:periodId>99</stu2:periodId>
+	                        <stu2:finished xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu2:reasonOfFinishingId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu2:clinicalSemester>0.000000</stu2:clinicalSemester>
+	                     </stu2:degreeProgramProgress>
+	                  </stu2:progress>
+	                  <stu2:studentId>21118</stu2:studentId>
+	               </stu2:degreeProgram>
+	            </stu2:degreePrograms>
+                <stu2:accounts/>
+                <stu2:postAddresses/>
+                <stu2:emails/>
+                <stu2:personattributes/>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType createPostaddress(1111, "STU", Postaddress{"Am Anfang 1", "11111", "Arlerstedt", "", null, null, "home", null, null, null})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">111</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType createEmail(1111, "STU", Email{"anja.anaconda@studium.uni-hamburg.de", "email", "home"})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">111</value>
+        </entry>
+<!--         <entry> -->
+<!--             <key>de.his.ws.personaddressservice.PersonAddressServicePortType updateEmail(Holder{\d+, 111}, Email{"anja.anaconda@studium.uni-hamburg.de", "email", "home"})</key> -->
+<!--         </entry> -->
+        <entry>
+        	<key>de.his.ws.personservice.PersonServicePortType updatePerson(PersonExisting{1111, "Anja", "Anaconda", null, 1990-01-01, 2, "Andromeda", null, null, null, null, null, null, "Augsburg", 48, 2016-07-28, \d\d\d\d-\d\d-\d\d, null, PersoninfoDto{22, 2016-07-28, null, null, null, null, null, null, 48, null, null, \d\d\d\d-\d\d-\d\d, null}})</key>
+<!--             <key>de.his.ws.personservice.PersonServicePortType updatePerson(PersonExisting{1111, "Anja", "Anaconda", "", 1990-01-01, 2, "Andromeda", "", "", "", "", "", "", "Augsburg", 48, 2016-07-28, \d\d\d\d-\d\d-\d\d, "", PersoninfoDto{22, 2016-07-28, "", "", "", "", "", "", 48, "", "", \d\d\d\d-\d\d-\d\d, ""}})</key> -->
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1111</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.rightsandrolesservice.RightsAndRolesServicePortType readRolesForPerson(1111)</key>
+            <value xsi:type="rars:orgRolesType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+        <entry>
+            <key>de.his.ws.rightsandrolesservice.RightsAndRolesServicePortType setPersonToOrgunitWithRole(SetPersonToOrgunitWithRole{1111, 2, 5, \d\d\d\d-\d\d-\d\d, 2020-\d\d-30})</key>
+        </entry>
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType searchAccountForPerson(1111)</key>
+            <value xsi:type="acs:completeAccountsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType createAccount(NewAccount{1111, "Anaconda1111111", null, \d\d\d\d-\d\d-\d\d, 20\d\d-\d\d-\d\d, 1, 1, null, 2, false, false, null, 20\d\d-\d\d-30, null, 21})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">111111</value>
+        </entry>
+<!--         <entry> -->
+<!--             <key>de.his.ws.personaddressservice.PersonAddressServicePortType assignAddressToNotification(111, "STU")</key> -->
+<!--             <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">11111</value> -->
+<!--         </entry> -->
+<!--         <entry> -->
+<!--             <key>de.his.ws.personaddressservice.PersonAddressServicePortType updatePostaddress(Holder{\d+, 111}, Postaddress{"Am Anfang 1", "11111", "Arlerstedt", "", null, null, "home", null, null, null})</key> -->
+<!--         </entry> -->
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType readAddresses(1111)</key>
+            <value xsi:type="pas:personAddressesByNotificationsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+        
+        
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType readAddresses(3333)</key>
+            <value xsi:type="pas:personAddressesByNotificationsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+        <entry>
+            <key>de.his.ws.personservice.PersonServicePortType findPerson60("=Delfin", "=Deetje", "", "", "", "", "=1990-03-03", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</key>
+            <value xsi:type="ps:personIdsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            	<ps:personIds>
+            		<ps:id>3333</ps:id>
+				</ps:personIds>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice.StudentServicePortType createCandidateStudent("Delfin", "Deetje", 2, "LO|GE|-|-|H|92|1|P|V|1|", true)</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">333</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice.StudentServicePortType findStudent61("", "=333", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</key>
+            <value xsi:type="stu:studentInfosType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <stu:studentInfo>
+	               <stu:studentId>333</stu:studentId>
+	               <stu:persionId>3333</stu:persionId>
+	               <stu:registrationnumber>33333333</stu:registrationnumber>
+	            </stu:studentInfo>
+            </value>
+        </entry>
+        <entry>
+        	<key>de.his.ws.personservice.PersonServicePortType readPerson(3333)</key>
+        	<value xsi:type="ps:PersonExisting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <ps:id>3333</ps:id>
+	            <ps:firstname>Deetje</ps:firstname>
+	            <ps:surname>Delfin</ps:surname>
+	            <ps:allfirstnames xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:dateofbirth>1990-03-03</ps:dateofbirth>
+	            <ps:genderId>2</ps:genderId>
+	            <ps:birthname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:academicdegreeId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:titleId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:birthcity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:countryId>48</ps:countryId>
+	            <ps:createdAt>2016-07-28</ps:createdAt>
+	            <ps:updatedAt>2017-05-23</ps:updatedAt>
+	            <ps:selfregistrationStatusId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <ps:personinfo>
+	               <ps:id>33</ps:id>
+	               <ps:createdAt>2016-07-28</ps:createdAt>
+	               <ps:familyStatusId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:hasDoneService xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:healthInsuranceId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:healthInsuranceNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:healthInsuranceText xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:insurantStatusId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:nationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:religionId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	               <ps:updatedAt>2017-02-13</ps:updatedAt>
+	               <ps:visumnumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            </ps:personinfo>
+        	</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice201812.StudentService201812PortType readStudentByPersonId(3333, true, false, true, true)</key>
+            <value xsi:type="stu2:Student" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <stu2:studentId>333</stu2:studentId>
+                <stu2:registrationnumber>3333333</stu2:registrationnumber>
+                <stu2:personId>3333</stu2:personId>
+                <stu2:completeName>Deetje Delfin</stu2:completeName>
+                <stu2:firstname>Deetje</stu2:firstname>
+                <stu2:surname>Delfin</stu2:surname>
+                <stu2:allfirstnames>Deetje</stu2:allfirstnames>
+                <stu2:dateofbirth>1990-03-03</stu2:dateofbirth>
+                <stu2:gender>2</stu2:gender>
+                <stu2:birthname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:academicdegree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:birthcity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:country>48</stu2:country>
+                <stu2:countryLid>48</stu2:countryLid>
+                <stu2:nationality>48</stu2:nationality>
+                <stu2:nationalityLid>48</stu2:nationalityLid>
+                <stu2:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:secondNationalityLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:selfregistrationStatus xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:connectedToSubject xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:eduType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:enrollmentdate>2019-01-07+01:00</stu2:enrollmentdate>
+                <stu2:exchangeprogramId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:hasLoanRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:homeCountry>48</stu2:homeCountry>
+                <stu2:homeCountryLid>48</stu2:homeCountryLid>
+                <stu2:homeDistrict>12</stu2:homeDistrict>
+                <stu2:homeDistrictLid>12</stu2:homeDistrictLid>
+                <stu2:kollegsemester>1.0</stu2:kollegsemester>
+                <stu2:leavesemester>1.0</stu2:leavesemester>
+                <stu2:orgunitLid>1</stu2:orgunitLid>
+                <stu2:practicalsemester>1.0</stu2:practicalsemester>
+                <stu2:semesterCountry xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterCountryLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrict xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:semesterDistrictLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:universitysemester>1.0</stu2:universitysemester>
+                <stu2:libraryCardNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <stu2:studystatus>3</stu2:studystatus>
+                <stu2:termType>30</stu2:termType>
+                <stu2:year>2019</stu2:year>
+                <stu2:createdAt>2019-03-28T00:52:41.069+01:00</stu2:createdAt>
+                <stu2:updatedAt>2019-08-02T01:44:50.069+01:00</stu2:updatedAt>
+                <stu2:requestForDisenrollment></stu2:requestForDisenrollment>
+                <stu2:degreePrograms/>
+                <stu2:accounts/>
+                <stu2:postAddresses/>
+                <stu2:emails/>
+                <stu2:personattributes/>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.personservice.PersonServicePortType updatePerson(PersonExisting{3333, "Deetje", "Delfin", null, 1990-03-03, 2, "Delfin", null, null, null, null, null, null, "Dresden", 48, 2016-07-28, \d\d\d\d-\d\d-\d\d, null, PersoninfoDto{33, 2016-07-28, null, null, null, null, null, null, 156, null, null, \d\d\d\d-\d\d-\d\d, null}})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3333</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice.StudentServicePortType updateStudent(UpdateStudent{StudentExisting{Person70{StayAbroadsType{null}, null}, null, DegreePrograms70Type{null}, null, 1997-04-01, null, null, null, 156, null, 1.0, 1.0, null, 1, 1.0, null, 3333333, null, null, null, null, null, 1, null, StudentFunctionlocksType{null}}})</key>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType createEmail(3333, "STU", Email{"deetje.delfin@studium.uni-hamburg.de", "email", "home"})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.rightsandrolesservice.RightsAndRolesServicePortType readRolesForPerson(3333)</key>
+            <value xsi:type="rars:orgRolesType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType createPostaddress(3333, "STU", Postaddress{"Dorfstraße 4", "33333", "Dresden", "", null, null, "home", null, null, null})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">333</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType createAccount(NewAccount{3333, "Delfin3333333", null, 20\d\d-\d\d-\d\d, 20\d\d-\d\d-\d\d, 1, 1, null, 2, false, false, null, 20\d\d-\d\d-\d\d, null, 21})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1121994537105780736</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.rightsandrolesservice.RightsAndRolesServicePortType setPersonToOrgunitWithRole(SetPersonToOrgunitWithRole{3333, 2, 5, \d\d\d\d-\d\d-\d\d, 2020-\d\d-30})</key>
+        </entry>
+<!--         <entry> -->
+<!--             <key>de.his.ws.addressservice.AddressServicePortType readPostAddressesWithNotification(3333, "person")</key> -->
+<!--             <value xsi:type="addrs:postAdressesWithNotificationType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/> -->
+<!--         </entry> -->
+<!--         <entry> -->
+<!--             <key>de.his.ws.addressservice.AddressServicePortType savePostAddresses(PostAddressesType{ArrayList(size=1)}, 3333, "person")</key> -->
+<!--             <value xsi:type="addrs:postAddressIdsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> -->
+<!--             	<addrs:postAddressId>3333</addrs:postAddressId> -->
+<!--             </value> -->
+<!--         </entry> -->
+<!--         <entry> -->
+<!--             <key>de.his.ws.addressservice.AddressServicePortType setNotificationCategoryForAddress(3333, STU)</key> -->
+<!--             <value xsi:type="xs:boolean" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</value> -->
+<!--         </entry> -->
+<!--         <entry> -->
+<!--             <key>de.his.ws.addressservice.AddressServicePortType readEAddresses(3333, "person")</key> -->
+<!--             <value xsi:type="addrs:eAdressesType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/> -->
+<!--         </entry> -->
+<!--         <entry> -->
+<!--             <key>de.his.ws.addressservice.AddressServicePortType saveEAddresses(EAddressesType{ArrayList(size=1)}, 3333, "person")</key> -->
+<!--             <value xsi:type="addrs:eAdressIdsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/> -->
+<!--         </entry> -->
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType searchAccountForPerson(3333)</key>
+            <value xsi:type="acs:completeAccountsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+    </responses>
+</responsesType>

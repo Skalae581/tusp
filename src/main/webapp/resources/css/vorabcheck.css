@@ -1,0 +1,168 @@
+.control-label {
+	width: 320px !important;
+	padding-left: 7px !important;
+}
+
+.col-sm-9 {
+	width: 500px !important;
+}
+
+.vorabcheckBeispiel {
+	border: black 3px solid;
+	padding: 10px;
+}
+
+.vorabcheckBeispiel td {
+	padding-right: 40px;
+}
+
+.entwederOder, .vorabcheckCode {
+	color: red;
+}
+
+.ectsTable {
+	border: black 1px solid;
+	padding: 10px;
+	border-collapse: collapse; 
+	height: 100%;
+}
+
+.ectsTable#units {
+	border: black 1px solid;
+	padding: 10px;
+	border-collapse: collapse; 
+	height: 100%;
+	margin: 0 auto;
+}
+
+table { 
+	border-collapse: collapse; 
+}
+
+hr {
+	border: 1px dotted black;
+}
+
+.extra, tr.ectsHeader {
+	background-color: #D8D8D8;
+	padding: 5px;
+}
+
+.extra td {
+	text-align: center;
+}
+
+#extra {
+	margin-left: 15px;
+}
+
+.ectsTable td { 
+	border-left: 1px solid; 
+	padding: 10px;
+	height: 100%;
+}
+
+.ectsTable input {
+	border: 0px solid;
+}
+
+tr.ectsHeader, .ectsBereich td { 
+	font-weight:bold;
+}
+
+
+tr.ectsBereich, input[readonly], .ectsBereich {
+	background: #EDFAC6;
+	padding: 5px;
+}
+
+.ectsNeu {
+	background: #01DF74;
+	padding: 5px;
+}
+
+input[readonly] {
+	text-align: center;
+}
+
+input[name^=name], input[name^=zusatz], input[name=titel] {
+	box-sizing: border-box;
+	width: 35%;
+}
+
+td.ectsPunkte {
+	text-align:center;
+}
+
+.ectsTable tr { 
+	border-top: 1px solid; 
+}
+
+.fach {
+	margin-left: 30px;
+}
+
+label:after { 
+	content:" *";
+	color: red; 
+}
+
+p[id^=error] {
+	color:red;
+}
+
+input[id^=fach], input[id=units] {
+	background-color: #e6e6e6;
+	text-align: center;
+	padding: 5px;
+}
+
+textarea[id^=fach], input[id=extra] {
+	background-color: #e6e6e6;
+	border: none;
+	resize: none;
+	height: 2em;
+}
+
+input[id^=fachPkte], input[id^=bereichPkte]  {
+	width: 30px;
+	text-align: center;
+}
+
+.btn-default focus {
+	border: 5px solid red; 
+}
+
+a.ectsShow {
+	color: green;
+}
+
+a.ectsCreate {
+	color: orange;
+}
+
+.createModifyECTS {	
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+.ectsPunkte td, .ectsPunkte tr {
+	border: 2px solid black; 
+	padding: 5px;
+}
+
+.vervollstBeispiel {
+	width: 30%;
+	border: 2px solid black; 
+	margin: auto;
+	padding: 5px;
+}
+textarea[name="anmerk"] {
+	border: 2px solid black; 
+	width: 50%;
+	min-height: 300px;
+}
+
+.datenspeichern-box {
+	font-weight:bold;
+}

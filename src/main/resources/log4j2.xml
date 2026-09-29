@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" xmlns:xi="http://www.w3.org/2001/XInclude" packages="de.tuhh.tusp">
+
+	<Loggers>
+	    <Root level="ALL">
+	        <AppenderRef  ref="CONSOLE" level="ALL"  />
+	        <Appender-ref ref="ROLLING_FILE" level="ALL" /> 
+	    </Root>
+	    
+	    <!--- SPRING FRAMEWORK -->
+	  	<Logger name="org.springframework" level="INFO"  additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" />
+	    </Logger>
+	    <Logger name="_org.springframework.web.servlet" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="org.springframework.beans.factory" level="WARN"  additivity="false">
+	        <Appender-ref ref="CONSOLE" level="WARN" />
+	        <Appender-ref ref="ROLLING_FILE" level="WARN" /> 
+	    </Logger>
+	    <Logger name="org.springframework.jndi" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="org.springframework.context.annotation" level="INFO" additivity="false">   
+	    	<Appender-ref ref="CONSOLE" level="INFO" /> 
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" />   
+	    </Logger>
+	   
+	    <Logger name="org.springframework.web.servlet.mvc" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="org.springframework.transaction.interceptor" level="INFO" additivity="false">	        
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger> 
+	   <Logger name="org.springframework.security" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	     <Logger name="org.springframework.jdbc.datasource.DataSourceUtils" level="WARN" additivity="false">  
+	        <Appender-ref ref="CONSOLE" level="WARN" />
+	        <Appender-ref ref="ROLLING_FILE" level="WARN" /> 
+	    </Logger> 
+	    <!--- SELENIUM -->
+	    <Logger name="org.seleniumhq" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger> 
+	    <!---TUSP UTILS  -->
+	   <Logger name="de.tuhh.tusp.utils.TuspMessageSource" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="de.tuhh.tusp.utils.StopWatchFilter" level="INFO"  additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <!-- TUSP CONFIG -->
+	     <Logger name="de.tuhh.tusp.config" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	     <!-- DB CONFIG -->
+	     <Logger name="de.tuhh.tusp.config.UnitTestDatabaseConfig" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="de.tuhh.tusp.config.DatabaseConfig" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger> 
+	   
+	   <!-- TUSP SECURITY-->
+	  	<Logger name="de.tuhh.tusp.config.SecurityConfiguration" level="INFO"  additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <!-- TUSP CONTROLLER -->
+	    <Logger name="de.tuhh.tusp.controller" level="INFO" additivity="false">  
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <!-- JOOQ -->
+	    <Logger name="org.jooq.tools.LoggerListener" level="INFO"  additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="org.jooq.tools.StopWatch" level="ERROR" additivity="false"> 
+	        <Appender-ref ref="CONSOLE" level="ERROR" />
+	        <Appender-ref ref="ROLLING_FILE" level="ERROR" /> 
+	    </Logger> 
+	    <Logger name="org.jooq.Constants" level="ERROR"  additivity="false">
+	        <Appender-ref ref="CONSOLE" level="ERROR" />
+	        <Appender-ref ref="ROLLING_FILE" level="ERROR" /> 
+	    </Logger>
+	    <!-- DB UPDATER -->
+	    <Logger name="de.tuhh.tusp.utils.DatabaseUpdater" level="DEBUG"  additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	    <!-- SOP PAKET -->
+	    <Logger name="de.tuhh.tusp.psv.sop" level="DEBUG" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	   	<!-- PSV LDAP -->
+	  	<Logger name="de.tuhh.tusp.psv.initial" level="DEBUG" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	    <!-- PSV UNIHH -->
+	  	<Logger name="de.tuhh.tusp.psv.uni_hamburg" level="DEBUG" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	    <Logger name="de.tuhh.tusp.td" level="DEBUG" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	    <!-- PSV UNIHH -->
+	  	<Logger name="de.tuhh.tusp.webservice.utils" level="DEBUG" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	    <!-- STU -->
+	     <Logger name="de.tuhh.tusp.stu" level="DEBUG" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	    
+	    <!-- APACHE -->
+	  	<Logger name="org.apache.commons.discovery" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="org.apache.axis" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+            <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <Logger name="org.apache.http" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    <!-- HIBERNATE VALIDATOR -->
+	    <Logger name="org.hibernate.validator" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger> 
+	    
+	    <Logger name="de.tuhh.tusp.utils.WebserviceFactory" level="DEBUG" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="DEBUG" />
+	        <Appender-ref ref="ROLLING_FILE" level="DEBUG" /> 
+	    </Logger>
+	    <!-- tusp global  -->
+	    <Logger name="de.tuhh.tusp.global" level="INFO" additivity="false">
+	        <Appender-ref ref="CONSOLE" level="INFO" />
+	        <Appender-ref ref="ROLLING_FILE" level="INFO" /> 
+	    </Logger>
+	    
+	    
+	</Loggers>
+
+
+	<Appenders>
+	
+	    <Console name="CONSOLE" target="SYSTEM_OUT">
+	        <PatternLayout
+	            pattern="[%-5level] %d{YYYY-mm-dd :HH:mm:ss} %c:%L - %msg%n" />
+	    </Console>
+	    
+	    
+	    <RollingFile
+			  name="ROLLING_FILE"
+			  fileName="/var/log/tomcat9/tusp.log"
+			  filePattern="/var/log/tomcat9/tusp-%d{yyyy-MM-dd}-%i.log.gz"
+			  ignoreExceptions="false">
+			  
+			  <PatternLayout>
+			      <Pattern>[%-5level] %d{YYYY-mm-dd :HH:mm:ss} %c:%L - %msg%n</Pattern>
+			  </PatternLayout>
+			 
+			  <Policies>
+			      <SizeBasedTriggeringPolicy size="10 MB" />
+			  </Policies>
+			  <DefaultRolloverStrategy max="2" />
+		</RollingFile>
+	
+	</Appenders>
+	
+	
+</Configuration>

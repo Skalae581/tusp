@@ -1,0 +1,12 @@
+{
+
+
+"roles":[
+	{	
+		"key":"UniHHstudent",
+		"roleIdentifier":"student",
+		"orgaUnitIndentifier":"TUHH"		
+	}
+	
+]
+}

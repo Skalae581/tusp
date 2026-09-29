@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<responsesType xmlns:ns2="http://www.his.de/ws/CourseOfStudyService" xmlns:pas="http://www.his.de/ws/PersonAddressService" xmlns:ps="http://www.his.de/ws/PersonService" xmlns:rars="http://www.his.de/ws/RightsAndRolesService" xmlns:stu="http://www.his.de/ws/StudentService" xmlns:stu18="http://www.his.de/ws/StudentService201812" xmlns:addrs="http://www.his.de/ws/AddressService" xmlns:acs="http://www.his.de/ws/AccountService">
+    <responses>
+        <entry>
+            <key>de.his.ws.personservice.PersonServicePortType findPerson60("", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "1|2|3|4", "", "", "", "", "", ".+", "", "", "")</key>
+            <value xsi:type="ps:personIdsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           		<ps:id>6</ps:id>
+           		<ps:id>7</ps:id>
+           		<ps:id>10</ps:id>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice201812.StudentService201812PortType readStudentByPersonId(6, true, false, true, true)</key>
+            <value xsi:type="stu18:Student" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <stu18:studentId>66</stu18:studentId>
+	            <stu18:registrationnumber>666</stu18:registrationnumber>
+	            <stu18:personId>6</stu18:personId>
+	            <stu18:completeName>Carla Chamäleon</stu18:completeName>
+	            <stu18:firstname>Carla</stu18:firstname>
+	            <stu18:surname>Chamäleon</stu18:surname>
+	            <stu18:allfirstnames>Carla</stu18:allfirstnames>
+	            <stu18:dateofbirth>1990-07-27</stu18:dateofbirth>
+	            <stu18:gender>W</stu18:gender>
+	            <stu18:birthname>Celebeskuckuck</stu18:birthname>
+	            <stu18:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:academicdegree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:birthcity>Hamburg</stu18:birthcity>
+	            <stu18:country>D</stu18:country>
+	            <stu18:countryLid>48</stu18:countryLid>
+	            <stu18:nationality>D</stu18:nationality>
+	            <stu18:nationalityLid>48</stu18:nationalityLid>
+	            <stu18:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:secondNationalityLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:selfregistrationStatus xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:connectedToSubject>0</stu18:connectedToSubject>
+	            <stu18:eduType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:enrollmentdate>2010-10-01</stu18:enrollmentdate>
+	            <stu18:exchangeprogramId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:hasLoanRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:homeCountry>D</stu18:homeCountry>
+	            <stu18:homeCountryLid>48</stu18:homeCountryLid>
+	            <stu18:homeDistrict>HH</stu18:homeDistrict>
+	            <stu18:homeDistrictLid>158</stu18:homeDistrictLid>
+	            <stu18:kollegsemester>0.000000</stu18:kollegsemester>
+	            <stu18:leavesemester>1.000000</stu18:leavesemester>
+	            <stu18:orgunitLid>100011</stu18:orgunitLid>
+	            <stu18:practicalsemester>0.000000</stu18:practicalsemester>
+	            <stu18:semesterCountry xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterCountryLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterDistrict xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterDistrictLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:universitysemester>3.000000</stu18:universitysemester>
+	            <stu18:libraryCardNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:studystatus>R</stu18:studystatus>
+	            <stu18:termType>SoSe</stu18:termType>
+	            <stu18:year>2018</stu18:year>
+	            <stu18:createdAt>2018-04-19T10:14:00</stu18:createdAt>
+	            <stu18:updatedAt>2018-04-19T10:14:00</stu18:updatedAt>
+	            <stu18:requestForDisenrollment xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:degreePrograms>
+	               <stu18:degreeProgram>
+	                  <stu18:id>1437</stu18:id>
+	                  <stu18:objGuid>049d168e-084e-43ed-83b9-5633b7dc6ac0</stu18:objGuid>
+	                  <stu18:gender xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:curriculumBlocked>false</stu18:curriculumBlocked>
+	                  <stu18:finalExamCountryLid>48</stu18:finalExamCountryLid>
+	                  <stu18:finalExamCountry>D</stu18:finalExamCountry>
+	                  <stu18:finalExamDistrict>HH</stu18:finalExamDistrict>
+	                  <stu18:typeOfDoctorate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:createdAt>2018-04-19T10:18:25</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:18:25</stu18:updatedAt>
+	                  <stu18:progress>
+	                     <stu18:degreeProgramProgress>
+	                        <stu18:id>1515</stu18:id>
+	                        <stu18:objGuid>7a2caa06-728d-46c4-8ba3-1b703619b582</stu18:objGuid>
+	                        <stu18:subjectnumber>1</stu18:subjectnumber>
+	                        <stu18:studysemester>3.000000</stu18:studysemester>
+	                        <stu18:startdate>2018-04-01</stu18:startdate>
+	                        <stu18:enddate>2018-09-30</stu18:enddate>
+	                        <stu18:partTimePercentage xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:studentstatus>H</stu18:studentstatus>
+	                        <stu18:studystatus>R</stu18:studystatus>
+	                        <stu18:courseOfStudyId>2969</stu18:courseOfStudyId>
+	                        <stu18:studynumber>1</stu18:studynumber>
+	                        <stu18:partTimeReason xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reasonOfLeaveId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reregistrationDate>2018-03-20</stu18:reregistrationDate>
+	                        <stu18:periodId>98</stu18:periodId>
+	                        <stu18:termType>SoSe</stu18:termType>
+	                        <stu18:year>2018</stu18:year>
+	                        <stu18:clinicalSemester>0.000000</stu18:clinicalSemester>
+	                        <stu18:curriculumSemester>0.000000</stu18:curriculumSemester>
+	                        <stu18:noExaminationAsOf xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:examinationEntitlement>J</stu18:examinationEntitlement>
+	                        <stu18:finished xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reasonOfFinishing xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:isSetCurriculumSemester xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:createdAt>2018-04-19T10:18:25</stu18:createdAt>
+	                        <stu18:updatedAt>2018-04-19T10:18:25</stu18:updatedAt>
+	                     </stu18:degreeProgramProgress>
+	                  </stu18:progress>
+	               </stu18:degreeProgram>
+	            </stu18:degreePrograms>
+	            <stu18:accounts/>
+	            <stu18:postAddresses>
+	               <stu18:postAddress>
+	                  <stu18:id>25828</stu18:id>
+	                  <stu18:objGuid>dd193847-c259-434a-bf20-dc745c3e5aec</stu18:objGuid>
+	                  <stu18:addresstagId>home</stu18:addresstagId>
+	                  <stu18:postcode>21109</stu18:postcode>
+	                  <stu18:street>Coole Straße 125</stu18:street>
+	                  <stu18:city>Hamburg</stu18:city>
+	                  <stu18:addressaddition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:postofficebox xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:company xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:state xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:country>D</stu18:country>
+	                  <stu18:createdAt>2018-04-19T10:15:58</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:15:58</stu18:updatedAt>
+	               </stu18:postAddress>
+	            </stu18:postAddresses>
+	            <stu18:emails>
+	               <stu18:email>
+	                  <stu18:id>29888</stu18:id>
+	                  <stu18:objGuid>5e26a6d4-c159-49a1-8638-755aa6a4c2b0</stu18:objGuid>
+	                  <stu18:eaddresstype>email</stu18:eaddresstype>
+	                  <stu18:eaddresstag xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:addresstag>rz</stu18:addresstag>
+	                  <stu18:eaddress>carla@tuhh.de</stu18:eaddress>
+	                  <stu18:createdAt>2018-04-19T10:16:51</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:16:51</stu18:updatedAt>
+	               </stu18:email>
+	            </stu18:emails>
+	            <stu18:personattributes/>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType readAddresses(6)</key>
+            <value xsi:type="pas:personAddressesByNotificationsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <pas:personAddressesByNotification>
+	               <pas:notificationCategory>STUALL</pas:notificationCategory>
+	               <pas:postaddresses>
+	                  <pas:postaddressMeta>
+	                     <pas:addressId>661</pas:addressId>
+	                     <pas:objGuid>18b3be45-4c23-42e3-9ff3-735b4a3c490a</pas:objGuid>
+	                     <pas:personId>6</pas:personId>
+	                     <pas:validFrom>1900-01-01</pas:validFrom>
+	                     <pas:validTo>2100-12-31</pas:validTo>
+	                     <pas:createdAt>2019-09-05T14:44:03</pas:createdAt>
+	                     <pas:updatedAt>2019-09-05T14:44:03</pas:updatedAt>
+	                     <pas:editable>true</pas:editable>
+	                     <pas:notificationCategories>
+	                        <pas:notificationCategory>STUALL</pas:notificationCategory>
+	                     </pas:notificationCategories>
+	                     <pas:postaddress>
+	                        <pas:street>Irgendwo 123</pas:street>
+	                        <pas:postcode>21073</pas:postcode>
+	                        <pas:city>Hamburg</pas:city>
+	                        <pas:addressaddition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:postofficebox xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:country>D</pas:country>
+	                        <pas:addresstag>home</pas:addresstag>
+	                        <pas:company xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:divisionName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:state xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                     </pas:postaddress>
+	                  </pas:postaddressMeta>
+	               </pas:postaddresses>
+	               <pas:emails>
+	                  <pas:emailMeta>
+	                     <pas:addressId>662</pas:addressId>
+	                     <pas:objGuid>fbb7fbf1-ea34-4b32-ad1b-4e8879b54362</pas:objGuid>
+	                     <pas:personId>6</pas:personId>
+	                     <pas:validFrom>1900-01-01</pas:validFrom>
+	                     <pas:validTo>2100-12-31</pas:validTo>
+	                     <pas:createdAt>2019-09-05T14:53:30</pas:createdAt>
+	                     <pas:updatedAt>2019-09-05T14:53:30</pas:updatedAt>
+	                     <pas:editable>true</pas:editable>
+	                     <pas:notificationCategories>
+	                        <pas:notificationCategory>STU</pas:notificationCategory>
+	                        <pas:notificationCategory>STUALL</pas:notificationCategory>
+	                        <pas:notificationCategory>RZ</pas:notificationCategory>
+	                     </pas:notificationCategories>
+	                     <pas:email>
+	                        <pas:emailValue>carla@tuhh.de</pas:emailValue>
+	                        <pas:eaddresstype>email</pas:eaddresstype>
+	                        <pas:addresstag>rz</pas:addresstag>
+	                     </pas:email>
+	                  </pas:emailMeta>
+	                  <pas:emailMeta>
+	                     <pas:addressId>663</pas:addressId>
+	                     <pas:objGuid>0f7b7489-701c-46b8-8882-9150b310d69a</pas:objGuid>
+	                     <pas:personId>6</pas:personId>
+	                     <pas:validFrom>1900-01-01</pas:validFrom>
+	                     <pas:validTo>2100-12-31</pas:validTo>
+	                     <pas:createdAt>2019-09-05T14:53:30</pas:createdAt>
+	                     <pas:updatedAt>2019-09-05T14:53:30</pas:updatedAt>
+	                     <pas:editable>true</pas:editable>
+	                     <pas:notificationCategories>
+	                        <pas:notificationCategory>STUALL</pas:notificationCategory>
+	                     </pas:notificationCategories>
+	                     <pas:email>
+	                        <pas:emailValue>carla@gmx.de</pas:emailValue>
+	                        <pas:eaddresstype>email</pas:eaddresstype>
+	                        <pas:addresstag>privat</pas:addresstag>
+	                     </pas:email>
+	                  </pas:emailMeta>
+	               </pas:emails>
+	               <pas:phones>
+	                  <pas:phoneMeta>
+	                     <pas:addressId>664</pas:addressId>
+	                     <pas:objGuid>0f7b7489-701c-46b8-8882-9150b310d69a</pas:objGuid>
+	                     <pas:personId>6</pas:personId>
+	                     <pas:validFrom>1900-01-01</pas:validFrom>
+	                     <pas:validTo>2100-12-31</pas:validTo>
+	                     <pas:createdAt>2019-09-05T14:53:30</pas:createdAt>
+	                     <pas:updatedAt>2019-09-05T14:53:30</pas:updatedAt>
+	                     <pas:editable>true</pas:editable>
+	                     <pas:notificationCategories>
+	                        <pas:notificationCategory>STUALL</pas:notificationCategory>
+	                     </pas:notificationCategories>
+	                     <pas:phone>
+	                        <pas:phoneNumber>+49 40 42878 2279</pas:phoneNumber>
+	                        <pas:eaddresstype>phone</pas:eaddresstype>
+	                        <pas:addresstag>privat</pas:addresstag>
+	                     </pas:phone>
+	                  </pas:phoneMeta>
+	               </pas:phones>
+	               <pas:messengers/>
+	               <pas:hyperlinks/>
+	            </pas:personAddressesByNotification>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.rightsandrolesservice.RightsAndRolesServicePortType readRolesForPerson(6)</key>
+            <value xsi:type="rars:orgRolesType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<pas:orgRole>
+				   <pas:id>4</pas:id>
+				   <pas:objGuid>1761b3b1-1a92-46ab-808a-27e454531d0d</pas:objGuid>
+				   <pas:orgunitLid>1</pas:orgunitLid>
+				   <pas:personId>6</pas:personId>
+				   <pas:roleId>5</pas:roleId>
+				   <pas:validFrom>1900-01-01</pas:validFrom>
+				   <pas:validTo>2100-12-31</pas:validTo>
+				   <pas:roleparameters/>
+				</pas:orgRole>
+				<pas:orgRole>
+				   <pas:id>88</pas:id>
+				   <pas:objGuid>711eacee-0e11-49bc-addd-23a0f16d007c</pas:objGuid>
+				   <pas:orgunitLid>2</pas:orgunitLid>
+				   <pas:personId>6</pas:personId>
+				   <pas:roleId>6</pas:roleId>
+				   <pas:validFrom>1900-01-01</pas:validFrom>
+				   <pas:validTo>2100-12-31</pas:validTo>
+				   <pas:roleparameters/>
+				</pas:orgRole>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice201812.StudentService201812PortType readStudentByPersonId(10, true, false, true, true)</key>
+            <value xsi:type="stu18:Student" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <stu18:studentId>1010</stu18:studentId>
+	            <stu18:registrationnumber>101010</stu18:registrationnumber>
+	            <stu18:personId>10</stu18:personId>
+	            <stu18:completeName>Nicht geliefert</stu18:completeName>
+	            <stu18:firstname>wegen</stu18:firstname>
+	            <stu18:surname>Abschl MP</stu18:surname>
+	            <stu18:allfirstnames>wegen</stu18:allfirstnames>
+	            <stu18:dateofbirth>1990-07-27</stu18:dateofbirth>
+	            <stu18:gender>W</stu18:gender>
+	            <stu18:birthname>Celebeskuckuck</stu18:birthname>
+	            <stu18:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:academicdegree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:birthcity>Hamburg</stu18:birthcity>
+	            <stu18:country>D</stu18:country>
+	            <stu18:countryLid>48</stu18:countryLid>
+	            <stu18:nationality>D</stu18:nationality>
+	            <stu18:nationalityLid>48</stu18:nationalityLid>
+	            <stu18:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:secondNationalityLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:selfregistrationStatus xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:connectedToSubject>0</stu18:connectedToSubject>
+	            <stu18:eduType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:enrollmentdate>2010-10-01</stu18:enrollmentdate>
+	            <stu18:exchangeprogramId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:hasLoanRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:homeCountry>D</stu18:homeCountry>
+	            <stu18:homeCountryLid>48</stu18:homeCountryLid>
+	            <stu18:homeDistrict>HH</stu18:homeDistrict>
+	            <stu18:homeDistrictLid>158</stu18:homeDistrictLid>
+	            <stu18:kollegsemester>0.000000</stu18:kollegsemester>
+	            <stu18:leavesemester>1.000000</stu18:leavesemester>
+	            <stu18:orgunitLid>100011</stu18:orgunitLid>
+	            <stu18:practicalsemester>0.000000</stu18:practicalsemester>
+	            <stu18:semesterCountry xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterCountryLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterDistrict xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterDistrictLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:universitysemester>3.000000</stu18:universitysemester>
+	            <stu18:libraryCardNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:studystatus>R</stu18:studystatus>
+	            <stu18:termType>SoSe</stu18:termType>
+	            <stu18:year>2018</stu18:year>
+	            <stu18:createdAt>2018-04-19T10:14:00</stu18:createdAt>
+	            <stu18:updatedAt>2018-04-19T10:14:00</stu18:updatedAt>
+	            <stu18:requestForDisenrollment xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:degreePrograms>
+	               <stu18:degreeProgram>
+	                  <stu18:id>1437</stu18:id>
+	                  <stu18:objGuid>049d168e-084e-43ed-83b9-5633b7dc6ac0</stu18:objGuid>
+	                  <stu18:gender xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:curriculumBlocked>false</stu18:curriculumBlocked>
+	                  <stu18:finalExamCountryLid>48</stu18:finalExamCountryLid>
+	                  <stu18:finalExamCountry>D</stu18:finalExamCountry>
+	                  <stu18:finalExamDistrict>HH</stu18:finalExamDistrict>
+	                  <stu18:typeOfDoctorate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:createdAt>2018-04-19T10:18:25</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:18:25</stu18:updatedAt>
+	                  <stu18:progress>
+	                     <stu18:degreeProgramProgress>
+	                        <stu18:id>1515</stu18:id>
+	                        <stu18:objGuid>7a2caa06-728d-46c4-8ba3-1b703619b582</stu18:objGuid>
+	                        <stu18:subjectnumber>1</stu18:subjectnumber>
+	                        <stu18:studysemester>3.000000</stu18:studysemester>
+	                        <stu18:startdate>2018-04-01</stu18:startdate>
+	                        <stu18:enddate>2018-09-30</stu18:enddate>
+	                        <stu18:partTimePercentage xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:studentstatus>H</stu18:studentstatus>
+	                        <stu18:studystatus>R</stu18:studystatus>
+	                        <stu18:courseOfStudyId>2870</stu18:courseOfStudyId>
+	                        <stu18:studynumber>1</stu18:studynumber>
+	                        <stu18:partTimeReason xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reasonOfLeaveId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reregistrationDate>2018-03-20</stu18:reregistrationDate>
+	                        <stu18:periodId>98</stu18:periodId>
+	                        <stu18:termType>SoSe</stu18:termType>
+	                        <stu18:year>2018</stu18:year>
+	                        <stu18:clinicalSemester>0.000000</stu18:clinicalSemester>
+	                        <stu18:curriculumSemester>0.000000</stu18:curriculumSemester>
+	                        <stu18:noExaminationAsOf xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:examinationEntitlement>J</stu18:examinationEntitlement>
+	                        <stu18:finished xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reasonOfFinishing xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:isSetCurriculumSemester xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:createdAt>2018-04-19T10:18:25</stu18:createdAt>
+	                        <stu18:updatedAt>2018-04-19T10:18:25</stu18:updatedAt>
+	                     </stu18:degreeProgramProgress>
+	                  </stu18:progress>
+	               </stu18:degreeProgram>
+	            </stu18:degreePrograms>
+	            <stu18:accounts/>
+	            <stu18:postAddresses>
+	               <stu18:postAddress>
+	                  <stu18:id>25828</stu18:id>
+	                  <stu18:objGuid>dd193847-c259-434a-bf20-dc745c3e5aec</stu18:objGuid>
+	                  <stu18:addresstagId>home</stu18:addresstagId>
+	                  <stu18:postcode>21109</stu18:postcode>
+	                  <stu18:street>Coole Straße 125</stu18:street>
+	                  <stu18:city>Hamburg</stu18:city>
+	                  <stu18:addressaddition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:postofficebox xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:company xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:state xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:country>D</stu18:country>
+	                  <stu18:createdAt>2018-04-19T10:15:58</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:15:58</stu18:updatedAt>
+	               </stu18:postAddress>
+	            </stu18:postAddresses>
+	            <stu18:emails>
+	               <stu18:email>
+	                  <stu18:id>29888</stu18:id>
+	                  <stu18:objGuid>5e26a6d4-c159-49a1-8638-755aa6a4c2b0</stu18:objGuid>
+	                  <stu18:eaddresstype>email</stu18:eaddresstype>
+	                  <stu18:eaddresstag xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:addresstag>rz</stu18:addresstag>
+	                  <stu18:eaddress>wegen-mp@tuhh.de</stu18:eaddress>
+	                  <stu18:createdAt>2018-04-19T10:16:51</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:16:51</stu18:updatedAt>
+	               </stu18:email>
+	            </stu18:emails>
+	            <stu18:personattributes/>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.studentservice201812.StudentService201812PortType readStudentByPersonId(7, true, false, true, true)</key>
+            <value xsi:type="stu18:Student" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <stu18:studentId>77</stu18:studentId>
+	            <stu18:registrationnumber>777</stu18:registrationnumber>
+	            <stu18:personId>7</stu18:personId>
+	            <stu18:completeName>Alfons Affe</stu18:completeName>
+	            <stu18:firstname>Alfons</stu18:firstname>
+	            <stu18:surname>Affe</stu18:surname>
+	            <stu18:allfirstnames>Alfons</stu18:allfirstnames>
+	            <stu18:dateofbirth>1991-01-28</stu18:dateofbirth>
+	            <stu18:gender>M</stu18:gender>
+	            <stu18:birthname>Affe</stu18:birthname>
+	            <stu18:artistname xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:nameprefix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:namesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:academicdegreesuffix xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:academicdegree xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:birthcity>Hamburg</stu18:birthcity>
+	            <stu18:country>D</stu18:country>
+	            <stu18:countryLid>48</stu18:countryLid>
+	            <stu18:nationality>D</stu18:nationality>
+	            <stu18:nationalityLid>48</stu18:nationalityLid>
+	            <stu18:secondNationalityId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:secondNationalityLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:selfregistrationStatus xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:connectedToSubject>0</stu18:connectedToSubject>
+	            <stu18:eduType xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:enrollmentdate>2010-10-01</stu18:enrollmentdate>
+	            <stu18:exchangeprogramId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:hasLoanRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:homeCountry>D</stu18:homeCountry>
+	            <stu18:homeCountryLid>48</stu18:homeCountryLid>
+	            <stu18:homeDistrict>HH</stu18:homeDistrict>
+	            <stu18:homeDistrictLid>158</stu18:homeDistrictLid>
+	            <stu18:kollegsemester>0.000000</stu18:kollegsemester>
+	            <stu18:leavesemester>1.000000</stu18:leavesemester>
+	            <stu18:orgunitLid>100011</stu18:orgunitLid>
+	            <stu18:practicalsemester>0.000000</stu18:practicalsemester>
+	            <stu18:semesterCountry xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterCountryLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterDistrict xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:semesterDistrictLid xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:universitysemester>3.000000</stu18:universitysemester>
+	            <stu18:libraryCardNumber xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:studystatus>R</stu18:studystatus>
+	            <stu18:termType>SoSe</stu18:termType>
+	            <stu18:year>2018</stu18:year>
+	            <stu18:createdAt>2018-04-19T10:14:00</stu18:createdAt>
+	            <stu18:updatedAt>2018-04-19T10:14:00</stu18:updatedAt>
+	            <stu18:requestForDisenrollment xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	            <stu18:degreePrograms>
+	               <stu18:degreeProgram>
+	                  <stu18:id>1437</stu18:id>
+	                  <stu18:objGuid>049d168e-084e-43ed-83b9-5633b7dc6ac0</stu18:objGuid>
+	                  <stu18:gender xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:curriculumBlocked>false</stu18:curriculumBlocked>
+	                  <stu18:finalExamCountryLid>48</stu18:finalExamCountryLid>
+	                  <stu18:finalExamCountry>D</stu18:finalExamCountry>
+	                  <stu18:finalExamDistrict>HH</stu18:finalExamDistrict>
+	                  <stu18:typeOfDoctorate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:createdAt>2018-04-19T10:18:25</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:18:25</stu18:updatedAt>
+	                  <stu18:progress>
+	                     <stu18:degreeProgramProgress>
+	                        <stu18:id>1515</stu18:id>
+	                        <stu18:objGuid>7a2caa06-728d-46c4-8ba3-1b703619b582</stu18:objGuid>
+	                        <stu18:subjectnumber>1</stu18:subjectnumber>
+	                        <stu18:studysemester>3.000000</stu18:studysemester>
+	                        <stu18:startdate>2018-04-01</stu18:startdate>
+	                        <stu18:enddate>2018-09-30</stu18:enddate>
+	                        <stu18:partTimePercentage xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:studentstatus>H</stu18:studentstatus>
+	                        <stu18:studystatus>R</stu18:studystatus>
+	                        <stu18:courseOfStudyId>3047</stu18:courseOfStudyId>
+	                        <stu18:studynumber>1</stu18:studynumber>
+	                        <stu18:partTimeReason xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reasonOfLeaveId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reregistrationDate>2018-03-20</stu18:reregistrationDate>
+	                        <stu18:periodId>98</stu18:periodId>
+	                        <stu18:termType>SoSe</stu18:termType>
+	                        <stu18:year>2018</stu18:year>
+	                        <stu18:clinicalSemester>0.000000</stu18:clinicalSemester>
+	                        <stu18:curriculumSemester>0.000000</stu18:curriculumSemester>
+	                        <stu18:noExaminationAsOf xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:examinationEntitlement>J</stu18:examinationEntitlement>
+	                        <stu18:finished xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:reasonOfFinishing xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:isSetCurriculumSemester xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <stu18:createdAt>2018-04-19T10:18:25</stu18:createdAt>
+	                        <stu18:updatedAt>2018-04-19T10:18:25</stu18:updatedAt>
+	                     </stu18:degreeProgramProgress>
+	                  </stu18:progress>
+	               </stu18:degreeProgram>
+	            </stu18:degreePrograms>
+	            <stu18:accounts/>
+	            <stu18:postAddresses>
+	               <stu18:postAddress>
+	                  <stu18:id>25828</stu18:id>
+	                  <stu18:objGuid>dd193847-c259-434a-bf20-dc745c3e5aec</stu18:objGuid>
+	                  <stu18:addresstagId>home</stu18:addresstagId>
+	                  <stu18:postcode>21109</stu18:postcode>
+	                  <stu18:street>Wirste nicht sehen</stu18:street>
+	                  <stu18:city>Hamburg</stu18:city>
+	                  <stu18:addressaddition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:postofficebox xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:company xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:state xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:country>D</stu18:country>
+	                  <stu18:createdAt>2018-04-19T10:15:58</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:15:58</stu18:updatedAt>
+	               </stu18:postAddress>
+	            </stu18:postAddresses>
+	            <stu18:emails>
+	               <stu18:email>
+	                  <stu18:id>29888</stu18:id>
+	                  <stu18:objGuid>5e26a6d4-c159-49a1-8638-755aa6a4c2b0</stu18:objGuid>
+	                  <stu18:eaddresstype>email</stu18:eaddresstype>
+	                  <stu18:eaddresstag xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                  <stu18:addresstag>rz</stu18:addresstag>
+	                  <stu18:eaddress>affe@tuhh.de</stu18:eaddress>
+	                  <stu18:createdAt>2018-04-19T10:16:51</stu18:createdAt>
+	                  <stu18:updatedAt>2018-04-19T10:16:51</stu18:updatedAt>
+	               </stu18:email>
+	            </stu18:emails>
+	            <stu18:personattributes/>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType readAddresses(7)</key>
+            <value xsi:type="pas:personAddressesByNotificationsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <pas:personAddressesByNotification>
+	               <pas:notificationCategory>STUALL</pas:notificationCategory>
+	               <pas:postaddresses>
+	                  <pas:postaddressMeta>
+	                     <pas:addressId>771</pas:addressId>
+	                     <pas:objGuid>18b3be45-4c23-42e3-9ff3-735b4a3c490a</pas:objGuid>
+	                     <pas:personId>7</pas:personId>
+	                     <pas:validFrom>1900-01-01</pas:validFrom>
+	                     <pas:validTo>2100-12-31</pas:validTo>
+	                     <pas:createdAt>2019-09-05T14:44:03</pas:createdAt>
+	                     <pas:updatedAt>2019-09-05T14:44:03</pas:updatedAt>
+	                     <pas:editable>true</pas:editable>
+	                     <pas:notificationCategories>
+	                        <pas:notificationCategory>STUALL</pas:notificationCategory>
+	                     </pas:notificationCategories>
+	                     <pas:postaddress>
+	                        <pas:street>Affenstall 42</pas:street>
+	                        <pas:postcode>21109</pas:postcode>
+	                        <pas:city>Hamburg</pas:city>
+	                        <pas:addressaddition xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:postofficebox xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:country>D</pas:country>
+	                        <pas:addresstag>home</pas:addresstag>
+	                        <pas:company xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:divisionName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                        <pas:state xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+	                     </pas:postaddress>
+	                  </pas:postaddressMeta>
+	               </pas:postaddresses>
+	               <pas:emails>
+	                  <pas:emailMeta>
+	                     <pas:addressId>772</pas:addressId>
+	                     <pas:objGuid>fbb7fbf1-ea34-4b32-ad1b-4e8879b54362</pas:objGuid>
+	                     <pas:personId>7</pas:personId>
+	                     <pas:validFrom>1900-01-01</pas:validFrom>
+	                     <pas:validTo>2100-12-31</pas:validTo>
+	                     <pas:createdAt>2019-09-05T14:53:30</pas:createdAt>
+	                     <pas:updatedAt>2019-09-05T14:53:30</pas:updatedAt>
+	                     <pas:editable>true</pas:editable>
+	                     <pas:notificationCategories>
+	                        <pas:notificationCategory>STU</pas:notificationCategory>
+	                        <pas:notificationCategory>STUALL</pas:notificationCategory>
+	                        <pas:notificationCategory>RZ</pas:notificationCategory>
+	                     </pas:notificationCategories>
+	                     <pas:email>
+	                        <pas:emailValue>affe@tuhh.de</pas:emailValue>
+	                        <pas:eaddresstype>email</pas:eaddresstype>
+	                        <pas:addresstag>rz</pas:addresstag>
+	                     </pas:email>
+	                  </pas:emailMeta>
+	               </pas:emails>
+	               <pas:phones>
+	                  <pas:phoneMeta>
+	                     <pas:addressId>773</pas:addressId>
+	                     <pas:objGuid>0f7b7489-701c-46b8-8882-9150b310d69a</pas:objGuid>
+	                     <pas:personId>7</pas:personId>
+	                     <pas:validFrom>1900-01-01</pas:validFrom>
+	                     <pas:validTo>2100-12-31</pas:validTo>
+	                     <pas:createdAt>2019-09-05T14:53:30</pas:createdAt>
+	                     <pas:updatedAt>2019-09-05T14:53:30</pas:updatedAt>
+	                     <pas:editable>true</pas:editable>
+	                     <pas:notificationCategories>
+	                        <pas:notificationCategory>STUALL</pas:notificationCategory>
+	                     </pas:notificationCategories>
+	                     <pas:phone>
+	                        <pas:phoneNumber>+49 40 42878 2279</pas:phoneNumber>
+	                        <pas:eaddresstype>phone</pas:eaddresstype>
+	                        <pas:addresstag>privat</pas:addresstag>
+	                     </pas:phone>
+	                  </pas:phoneMeta>
+	               </pas:phones>
+	               <pas:messengers/>
+	               <pas:hyperlinks/>
+	            </pas:personAddressesByNotification>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.rightsandrolesservice.RightsAndRolesServicePortType readRolesForPerson(7)</key>
+            <value xsi:type="rars:orgRolesType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<pas:orgRole>
+				   <pas:id>4</pas:id>
+				   <pas:objGuid>1761b3b1-1a92-46ab-808a-27e454531d0d</pas:objGuid>
+				   <pas:orgunitLid>1</pas:orgunitLid>
+				   <pas:personId>7</pas:personId>
+				   <pas:roleId>5</pas:roleId>
+				   <pas:validFrom>1900-01-01</pas:validFrom>
+				   <pas:validTo>2100-12-31</pas:validTo>
+				   <pas:roleparameters/>
+				</pas:orgRole>
+            </value>
+        </entry>
+    </responses>
+</responsesType>

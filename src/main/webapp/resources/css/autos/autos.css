@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type='radio'] {
+    transform: scale(5);
+}
+
+.card{
+	min-height: 350px;
+	
+}
+
+.firstPageWeiterButton{
+	 position: absolute;
+	 bottom: 250px;
+	 
+}
+
+
+
+/* input[type=radio] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+} */

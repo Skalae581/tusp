@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type='radio'] {
+    transform: scale(5);
+}
+
+input[type='checkbox'] {
+   margin:4px 5px 0 0;
+}
+textarea {
+  padding-top:10px;
+  padding-bottom:25px; /* increased! */
+  /* height:16px; */
+  /* line-height:16px; */
+  width:100%; /* changed from 96 to 100% */
+  display:block;
+  /* margin:0px auto; not needed since i have width 100% now */
+}
+.card{
+	min-height: 350px;
+	
+}
+ .panel{
+ 	margin: 5;
+ 	padding:0;
+ }
+.firstPageWeiterButton{
+	 position: absolute;
+	 bottom: 250px;
+	 
+}
+
+.actions{
+	background-color: #eeeeec;
+}
+label {
+  display: inline-block;
+  max-width: 96%;
+  margin-bottom: -16px;
+  font-weight: 700;
+}
+.userList {
+  list-style: none; 
+  padding: 5px;
+  margin: 3px;
+}
+.grundList {
+  list-style: none; 
+  padding: 3px 3px 0 0;
+  margin: 1px;
+}
+.userList li {
+  padding: 3px;
+}
+.grundList li {
+  padding: 0px 3px 0 3px;
+}
+
+.panel-body{
+	padding:5px;
+}
+

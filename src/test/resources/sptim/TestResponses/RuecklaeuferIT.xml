@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<responsesType xmlns:his="http://www.his.de/ws/AccountService"  xmlns:pas="http://www.his.de/ws/PersonAddressService">
+    <responses>
+        <entry>
+           <key>de.his.ws.accountservice.AccountServicePortType findAccount("", "=ctt0002", "", "", "", "", "", "", "", "")</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="his:findAccountResultType">
+                <his:accountInfo>
+                    <his:id>22</his:id>
+                    <his:username>ctt0002</his:username>
+                    <his:personId>2</his:personId>
+                </his:accountInfo>
+            </value>
+        </entry>
+        <entry>
+           <key>de.his.ws.accountservice.AccountServicePortType findAccount("", "=ctt0003", "", "", "", "", "", "", "", "")</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="his:findAccountResultType">
+                <his:accountInfo>
+                    <his:id>33</his:id>
+                    <his:username>ctt0003</his:username>
+                    <his:personId>3</his:personId>
+                </his:accountInfo>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType readAccount201712(22)</key>
+            <value xsi:type="his:Account201712" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <his:id>22</his:id>
+                <his:personId>2</his:personId>
+                <his:username>ctt0002</his:username>
+                <his:passwordhash>123456</his:passwordhash>
+                <his:accountauthId>2</his:accountauthId>
+                <his:blockedId>1</his:blockedId>
+                <his:isInitialpassword>false</his:isInitialpassword>
+                <his:validFrom>1979-09-07+01:00</his:validFrom>
+                <his:validTo>2102-03-21+01:00</his:validTo>
+                <his:passwordValidTo>2042-05-26+02:00</his:passwordValidTo>
+                <his:authinfo></his:authinfo>
+                <his:externalsystemId></his:externalsystemId>
+                <his:isLdapAccount>false</his:isLdapAccount>
+                <his:objGuid>GUID124</his:objGuid>
+                <his:optincookie></his:optincookie>
+                <his:purposeId>1</his:purposeId>
+                <his:sourcefilter></his:sourcefilter>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType updateAccount201712({HisAccountWrapper{22, "ctt0002", 3, "", 1, null, true, false, "", 2, "qDwBivBd", 2042-05-26, 2102-03-21, 1979-09-07, 1, ""}})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-2041521761487448064</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType readAccount201712(33)</key>
+            <value xsi:type="his:Account201712" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <his:id>33</his:id>
+                <his:personId>3</his:personId>
+                <his:username>ctt0003</his:username>
+                <his:passwordhash>5L7xV)uCk,wJf</his:passwordhash>
+                <his:accountauthId>2</his:accountauthId>
+                <his:blockedId>1</his:blockedId>
+                <his:isInitialpassword>false</his:isInitialpassword>
+                <his:validFrom>1979-09-07+01:00</his:validFrom>
+                <his:validTo>2102-03-21+01:00</his:validTo>
+                <his:passwordValidTo>2042-05-26+02:00</his:passwordValidTo>
+                <his:authinfo></his:authinfo>
+                <his:externalsystemId></his:externalsystemId>
+                <his:isLdapAccount>false</his:isLdapAccount>
+                <his:objGuid>GUID123</his:objGuid>
+                <his:optincookie></his:optincookie>
+                <his:purposeId>1</his:purposeId>
+                <his:sourcefilter></his:sourcefilter>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType readAddresses(2)</key>
+            <value xsi:type="pas:personAddressesByNotificationsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">       <pas:personAddressesByNotification>
+               <pas:notificationCategory>STU</pas:notificationCategory>
+               <pas:postaddresses/>
+               <pas:emails>
+				  <pas:emailMeta>
+					 <pas:addressId>147191</pas:addressId>
+					 <pas:objGuid>fbb7fbf1-ea34-4b32-ad1b-4e8879b54362</pas:objGuid>
+					 <pas:personId>51732</pas:personId>
+					 <pas:validFrom>1900-01-01</pas:validFrom>
+					 <pas:validTo>2100-12-31</pas:validTo>
+					 <pas:createdAt>2019-09-05T14:53:30</pas:createdAt>
+					 <pas:updatedAt>2019-09-05T14:53:30</pas:updatedAt>
+					 <pas:editable>true</pas:editable>
+					 <pas:notificationCategories>
+						<pas:notificationCategory>STU</pas:notificationCategory>
+						<pas:notificationCategory>STUALL</pas:notificationCategory>
+						<pas:notificationCategory>RZ</pas:notificationCategory>
+					 </pas:notificationCategories>
+					 <pas:email>
+						<pas:emailValue>blob@tuhh.de</pas:emailValue>
+						<pas:eaddresstype>email</pas:eaddresstype>
+						<pas:addresstag>rz</pas:addresstag>
+					 </pas:email>
+				  </pas:emailMeta>
+               </pas:emails>
+               <pas:phones/>
+               <pas:messengers/>
+               <pas:hyperlinks/>
+            </pas:personAddressesByNotification>
+            </value>
+        </entry>
+        <entry>
+            <key>de.his.ws.accountservice.AccountServicePortType updateAccount201712({HisAccountWrapper{33, "ctt0003", 3, "", 1, null, true, false, "", 3, "PjpsHOXE", 2042-05-26, 2102-03-21, 1979-09-07, 1, "".*}.*})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">33</value>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType updateEmail(Holder{2623699057546497185, 147191}, Email{"ctt0002@tuhh.de", "email", "rz"})</key>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType readAddresses(3)</key>
+            <value xsi:type="pas:personAddressesByNotificationsType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </entry>
+        <entry>
+            <key>de.his.ws.personaddressservice.PersonAddressServicePortType createEmail(3, "STU", Email{"ctt0003@tuhh.de", "email", "rz"})</key>
+            <value xsi:type="xs:long" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4096</value>
+        </entry>
+    </responses>
+</responsesType>
+

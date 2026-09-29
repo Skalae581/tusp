@@ -1,0 +1,12 @@
+Neben dem erfolgreichen Abschluss eines Studiums in einem grundständigen Studiengang setzt der Zugang zum Studium im Master-Studiengang bewerber.getStgName() voraus, dass die Bewerberin oder der Bewerber über hinreichende fachliche Kenntnisse und Kompetenzen in den in nachstehender Aufstellung genannten Fachgebieten verfügt.
+
+Vom Vorliegen der geforderten Kenntnisse und Kompetenzen wird ausgegangen, wenn sich die Bewerberin / der Bewerber mit den in Spalte 2 der Aufstellung genannten Anforderungen auf Hochschulniveau erfolgreich in einer Breite und Tiefe auseinandergesetzt hat, wie es bei einem absolvierten Arbeitsumfang (workload) in Höhe der jeweils zugeordneten ECTS-Anzahl zu erwarten ist. Sollten Sie in einem Diplom-Studiengang oder einem anderen Studiengang, in dem keine ECTS-Leistungspunkte erteilt wurden, studiert haben, tragen Sie bitte in der Spalte "Kenntniserwerb ohne Erhalt von ECTS" die Semesterwochenstunden (SWS) ein, und fügen Sie entsprechende Nachweise bei.
+
+Die Nachweispflicht (ECTS und / oder auf sonstige Weise) liegt bei Ihnen als Bewerberin / Bewerber. Sie müssen alle Unterlagen vollständig einreichen, aus denen sich der Nachweis ergibt oder ergeben kann. Die Nachreichung von Unterlagen ist nicht möglich.
+
+Hinweise zum Ausfüllen:
+1. Bitte geben Sie in der Spalte "Im Vorstudium erbrachte ECTS" die von Ihnen absolvierten ECTS in dem jeweiligen Themenbereich an.
+2. Bitte geben Sie in der Spalte "Kenntniserwerb ohne Erhalt von ECTS" die SWS ein, sollte dies bei Ihnen (ggf. zusätzlich zum ECTS-Erwerb) zutreffen.
+3. Bitte geben Sie in der Spalte "Vergleiche Angaben im angefügten Modulhandbuch Seite" die Seitenzahl im Modulhandbuch an, auf der sich entsprechende Angaben finden. Bitte geben Sie nur die Seitenzahl an.
+4. Bitte geben Sie in der Spalte "Vergleiche sonstigen beigefügten Nachweis (Seite)" an, um welchen Nachweis es sich handelt, Ausstellungsdatum und ggf. die Seitenzahl, auf der sich im jeweiligen Dokument die Angaben befinden.
+5. Sofern Sie weitere Angabe zu den Eintragungen machen möchten oder zusätzliche Informationen geben können, die für die Beurteilung Ihrer Vorbildung hilfreich sein können, nutzen Sie bitte den Freiraum im Anschluss an die Tabelle.

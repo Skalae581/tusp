@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+
+
+/* TEST TABLE */
+
+.separator{
+	
+	border-top: 1px solid #0BFFFF;
+}
+.table td{
+	
+	font-size:12px;
+	text-overflow: ellipsis;
+  	overflow: hidden;
+  	
+}
+tr:hover {
+    background-color: #0fffff;
+}
+
+.table th{
+  	background: #0BFFFF;
+  	border-top: 1px solid black;
+}
+
+
+#button_selected{
+	background-color: " #0BFFFF !impontant";
+}
+
+
+.checkedImg{
+	width:90%;
+    max-width:60px;
+    max-height:45px;
+}
+
+/* precheck auswertung button
+ */
+ #submitId{
+	border: 1px solid blue;
+}
+
+
+.statusValue {
+	widrgb(114, 159, 207)x;
+}
+
+.filter-value[data-index="col13"],.filter-value[data-index="col14"]{
+	display:none;
+}
+
+#twinLabel{
+	font-family:Arial;
+	font-weight: normal;
+	font-size:16px;
+	position:relative;
+	right:10px;
+	top:10px;
+	/* color: #00008B; */
+}
+
+
+.checkbox{
+	
+	height:22px;
+	width:22px;
+	right:10px;
+}
+
+label[for="doubles_mail"]{
+	font-family:Arial;
+	font-size:16px;
+	font-weight: normal;
+	position:relative;
+	left:20px;	
+	bottom:20px;
+}
+
+label[for="doubles"]{
+	font-family:Arial;
+	font-size:16px;
+	font-weight: normal;
+	position:relative;
+	left:20px;
+	bottom:20px;
+}
+
+label[for="institution"]{
+	display:none;	
+}
+#additional{
+	display:none;
+}
+.nowrap {
+  	white-space: nowrap;
+}
+hr{
+	height: 1px;
+    border: 0;
+   /*  box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.8); */
+}

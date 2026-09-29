@@ -1,0 +1,125 @@
+{
+"authority":"HAMBURG03AEI931DB1TL1BNA1YXCI2LPEZ91VBV41",
+"lastName":"",
+"secondLastName":"",
+"firstName":"",
+"birthday":"",
+"matriculationNumber":"",
+"email":"",
+"applicationType":"IN",
+"personType":"S",
+"exchangeProgramNumber":"",
+"academicYearDescription":"",
+"semesterDescription":"wird überschrieben durch Job-Name. Beispiel wäre: SS 2018",
+"studyFieldDescription":"",
+"login":"",
+
+"furtherSearchRestrictions":[
+	{	
+		"elementName":"is_geprueft",
+		"elementType":"boolean",
+		"elementValue":"true",
+		"elementValueBoolean":true
+	},
+	{
+		"elementName":"is_angenommen",
+		"elementType":"boolean",
+		"elementValue":"true",
+		"elementValueBoolean":true
+	},
+	{
+		"elementName":"is_abgesagt",
+		"elementType":"boolean",
+		"elementValue":"false",
+		"elementValueBoolean":false
+	}
+
+],
+"specifiedElementsForReturn":[
+	{	
+		"elementName":"bew_nachname",
+		"elementType":"string"
+
+	},
+	{
+		"elementName":"bew_vorname",
+		"elementType":"string"
+
+	},
+	{	
+		"elementName":"bew_geb_ort",
+		"elementType":"string"
+
+	},
+	{
+		"elementName":"bew_geb_datum",
+		"elementType":"datumType"
+
+	},
+	{	
+		"elementName":"bew_geschlecht",
+		"elementType":"string"
+
+	},
+	{
+		"elementName":"lcd_bez",
+		"elementType":"string"
+
+	},
+	{
+		"elementName":"bew_email",
+		"elementType":"string"
+
+	},
+	
+	{
+		"elementName":"aust_prog_id",
+		"elementType":"integer"
+
+	},
+	{
+		"elementName":"sem_id",
+		"elementType":"integer"
+
+	},
+	{
+		"elementName":"lcd_id_nat",
+		"elementType":"integer"
+
+	},
+	{
+		"elementName":"lcd_id_heim",
+		"elementType":"integer"
+
+	},
+	{
+		"elementName":"lcd_id_geb",
+		"elementType":"integer"
+
+	},
+	{
+		"elementName":"text_freifeld1",
+		"elementType":"string"
+
+	},
+	{
+		"elementName":"bew_anz_studienjahre",
+		"elementType":"decimal"
+
+	},	
+	{	
+		"elementName":"is_geprueft",
+		"elementType":"boolean"
+
+	},
+	{
+		"elementName":"is_angenommen",
+		"elementType":"boolean"
+	},
+	{
+		"elementName":"is_abgesagt",
+		"elementType":"boolean"
+	}
+	
+]
+}

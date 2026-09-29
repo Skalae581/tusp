@@ -1,0 +1,7 @@
+package de.tuhh.tusp.app.fame.enums;
+
+public enum InputTypeEnum {
+
+	CONNECTOR_TEXT, CONNECTOR_FILE_NAME, SELECT, TEXTAREA, TEXT, CHECKBOX, RADIOBUTTON, DATE, DATETIME, ALL, BEARB_DATE,
+	BEARB_NAME, FILE_NAME;
+}

@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+
+.odd {
+	background-color: lightblue;
+}
+
+.panel {
+	margin: 2px;
+}
+
+label.error {
+    background-color: #d9534f;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.container-fluid {
+	padding: 0 !important;
+	margin: 0;
+}
+
+/*Header start*/
+@media ( max-width : 768px) {
+	.header_logo {
+		display: none;
+	}
+	.header_menu p {
+		display: inline;
+		margin-left: 1em !important;
+		float: right;
+	}
+}
+nav.navbar {
+	border-left: 0px solid green;
+	border-right: 0px solid green;
+	border-top: 0px solid green;
+	border-bottom: 0px solid green;
+	background-image: none;
+	background-color: inherit;
+	border-radius: 0;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.075);
+}
+header {
+	background: linear-gradient(to bottom, #fff, #eee);
+}
+/*Header ende*/
+
+/* checkboxes etwas größer */
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+/* Alle Label gleich fett*/
+.control-label {
+	font-weight: 700;
+}
+
+/* navbar centered */
+.navbar.center {
+    text-align: center;
+}
+.navbar.center .nav {
+    display:inline-block;
+    float: none;
+}
+@media ( min-width : 768px) {
+	.content {
+		margin-left: 3em;
+		margin-right: 3em;
+	}
+}
+
+/* basics */
+.right {
+	float:right;
+}
+.left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.center {
+	text-align: center;
+}
+
+/* Headline */
+.header_menu {
+	padding: 0.5em;
+	text-align: right;	
+}
+.header_menu p {
+	margin: 0;
+}
+
+body.narrow main {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+
+/* Static footer */
+html, body {
+  height: 100%;
+}
+
+.pagewrap {
+  min-height: 100%;
+}
+
+.tusp-body {
+  overflow:auto;
+  padding-bottom:2.1em; /* this needs to be bigger than footer height*/
+}
+
+footer {
+  position: relative;
+  margin-top: -2em; /* negative value of footer height */
+  height: 2em;
+  clear:both;
+  text-align: center;
+} 
+
+footer a{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.login .row {
+	margin-bottom: 5%;
+}
+
+
+/* Bootstrap korrektur */
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.form-controll-narrow {
+	width: 15em !important;
+	display: inline !important;
+}
+
+.ck-editor__editable {
+    min-height: 400px !important;
+    
+}
+
+

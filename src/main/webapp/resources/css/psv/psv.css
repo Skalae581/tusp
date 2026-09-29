@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+
+
+[class*='Console']{
+	height:400px;
+	width:100%;
+	white-space: nowrap;
+	overflow:scroll;
+	margin-top:20px;
+	font-size: 12px;
+	font-family:"Courier New";
+}
+
+
+
+[class*='Console']:last-child:after{
+	content: '... ';
+	display:block;
+	color:#ffffff;
+}
+
+
+.log_ERROR{
+	
+	color:#FF0000;
+}
+
+[class*='StatisticsOutput']{
+	 margin-top:55px;	 
+	 width:250px;
+	 height: 300px;
+}

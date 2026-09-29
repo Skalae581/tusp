@@ -1,0 +1,172 @@
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true -Djava.awt.headless=true"
+  MAVEN_CLI_OPTS: "-T 1C --batch-mode"
+  # --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true
+
+stages:
+  - test
+  - deploy
+  - sync
+  - report
+
+# Geplanter Build-Prozess
+# 
+# Auf jedem Feature-Branch:
+# 1. Run Unit-Tests  (job unit-test)
+# 2. Mergerequest stellen und (wenn alles gut ist) mergen auf master oder staging
+# 3. Jacoco und Ceckstyle Report (job report nur manuell)
+#
+# Auf Staging-Branch:
+# 1. Run all Tests (job verify)
+# 2. Deploy auf tst und tst2 (job deploy-tst und deploy-tst2)
+# 3. Jacoco und Ceckstyle Report (job report2)
+#
+# Auf Master-Branch
+# 1. Run all Tests (job verify)
+# 2. Deploy auf dev (job deploy-dev)
+# 2b. Deploy auf Prod (job deploy-prod nur manuell)
+# 3. Merge master -> staging (job sync)
+# 4. Vollständiges Reporting (job report2, javadoc)
+
+###### test stage ######
+unit-test:
+  stage: test
+  script:
+    - 'mvn $MAVEN_CLI_OPTS test -f pom.xml -Dgitlab=true'
+  image: maven:3.6.3-jdk-11
+  except: 
+    - master
+    - 329-hio-update-auf-2021-06
+    - staging
+  artifacts:
+    paths:
+    - target/surefire-reports/*.txt
+    - target/jacoco.exec
+    - target/classes
+    expire_in: 1 day
+    when: always
+    
+verify:
+  stage: test
+  script:
+    - echo $CI_PIPELINE_ID "("`date`")" > src/main/resources/version.txt
+    - 'mvn $MAVEN_CLI_OPTS verify -Dgitlab=true'
+  image: maven:3.6.3-jdk-11
+  only: 
+   - master
+   - 329-hio-update-auf-2021-06
+   - staging
+  artifacts:
+    paths:
+    - target/surefire-reports/*.txt
+    - target/jacoco.exec
+    - target/jacoco-it.exec
+    - target/tusp.war
+    - target/classes
+    expire_in: 1 week
+    when: always
+  
+
+###### report stage ######
+#javadoc:
+#  stage: report
+#  script:
+#    - 'mvn $MAVEN_CLI_OPTS javadoc:javadoc'
+#  image: maven:3.6.3-jdk-11
+#  artifacts:
+#    paths:
+#      - target/javadoc
+#    expire_in: 1 week
+#  only:
+#    - master
+#  when: delayed
+#  start_in: 30 minutes
+
+report2:
+  stage: report
+  script:
+    - 'mvn $MAVEN_CLI_OPTS jxr:jxr site jacoco:report checkstyle:checkstyle pmd:pmd taglist:taglist'
+    - 'cat target/site/jacoco/index.html'
+  image: maven:3.6.3-jdk-11
+  only: 
+    - staging
+    - master
+  artifacts:
+    paths:
+      - target/site
+    expire_in: 1 week
+  when: delayed
+  start_in: 10 minutes
+    
+report:
+  stage: report
+  script:
+    - 'mvn $MAVEN_CLI_OPTS jxr:jxr site jacoco:report checkstyle:checkstyle pmd:pmd taglist:taglist'
+    - 'cat target/site/jacoco/index.html'
+  image: maven:3.6.3-jdk-11
+  except: 
+    - master
+    - staging
+  artifacts:
+    paths:
+      - target/site
+    expire_in: 1 week
+  when: manual
+    
+###### deploy stage ######
+deploy-tst2:
+  stage: deploy
+  script:
+    - 'chmod +x deploy.sh && ./deploy.sh tst2 target/tusp.war'
+  only:
+    - staging
+    
+deploy-tst:
+  stage: deploy
+  script:
+    - 'chmod +x deploy.sh && ./deploy.sh tst target/tusp.war'
+  only:
+    - staging
+
+deploy-dev:
+  stage: deploy
+  script:
+    - 'chmod +x deploy.sh && ./deploy.sh dev target/tusp.war'
+  only:
+    - master
+    
+deploy-dev:
+  stage: deploy
+  script:
+    - 'chmod +x deploy.sh && ./deploy.sh dev target/tusp.war'
+  only:
+    - staging
+  when: manual
+  
+deploy-prod:
+  stage: deploy
+  script:
+    - 'chmod +x deploy.sh && ./deploy.sh prod target/tusp.war'
+  only:
+    - master
+  when: manual
+  
+  
+###### sync stage ######
+sync:
+  stage: sync
+  script:
+    - 'cd ~/tusp/'
+    - 'git fetch'
+    - 'git checkout staging'
+    - 'git pull'
+    - 'git merge origin/master'
+    - 'DIFF=`git diff --name-only --diff-filter=U`'
+    - 'if [ "$DIFF" == "" ]'
+    - 'then git push'
+    - 'else curl --request POST --header "PRIVATE-TOKEN: $PRIVATEAPIKEY" https://collaborating.tuhh.de/api/v4/projects/tusp%2Ftusp/issues?title=Sync%20master%20to%20staging%20faild&description=please%20merge%20manuel'
+    - 'fi'
+  only:
+    - master
+  when: delayed
+  start_in: 5 minutes
